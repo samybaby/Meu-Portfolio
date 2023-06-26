@@ -78,7 +78,7 @@ h2 {
 .checkbox .trace {
     width: 50px;
     height: 2px;
-    background-color: blueviolet;
+    background-color: white;
     position: absolute;
     border-radius: 4px;
     transition: 0.5s ease-in-out;
@@ -207,9 +207,27 @@ h2 {
 }
 
 .card-text {
-  width: 40%;
-  letter-spacing: 1px;
-  color: blueviolet;
+    width: 40%;
+    letter-spacing: 1px;
+    color: blueviolet;
+}
+
+.card-text a{
+    text-decoration: none;
+    border-radius: 3px;
+    width: 160px;
+    text-align: center;
+    padding: 10px;
+    font-family: Verdana;
+    font-size: 16px;
+    justify-content: center;
+    background-color: blueviolet;
+    color: #ffffff;
+
+}
+.card-text a:hover{
+    box-shadow: 2px 2px 2px #ffffff;
+     
 }
 
 .card-wrapper {
@@ -265,6 +283,7 @@ h2 {
   visibility: visible;
   font-size: 14px;
 }
+
 
 .footer {
   width: 100%;
