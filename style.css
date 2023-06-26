@@ -297,6 +297,7 @@ h2 {
 @media (max-width: 768px) {
   .header-container {
     padding: 0 32px;
+    background-position-y: -20px;
   }
   
   h1 {
