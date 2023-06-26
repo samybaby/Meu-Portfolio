@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@200;300;700;900&display=swap');
 
+@media (min-width: 768px) {
+    .card-container {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (min-width: 992px) {
+    .card-container {
+        width: calc(33.33% - 20px);
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
